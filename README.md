@@ -13,10 +13,10 @@ hard-code on a website or in documentation:
 
 | Platform | Download |
 |---|---|
-| macOS (Apple silicon & Intel) | [Zmarga-macos-universal.dmg](https://github.com/zmarga-dev/zmarga-releases/releases/latest/download/Zmarga-macos-universal.dmg) |
-| Windows 10/11 (x64) | [Zmarga-windows-x64.msi](https://github.com/zmarga-dev/zmarga-releases/releases/latest/download/Zmarga-windows-x64.msi) |
-| Linux (x64, AppImage) | [Zmarga-linux-x64.AppImage](https://github.com/zmarga-dev/zmarga-releases/releases/latest/download/Zmarga-linux-x64.AppImage) |
-| Linux (x64, Debian/Ubuntu) | [Zmarga-linux-x64.deb](https://github.com/zmarga-dev/zmarga-releases/releases/latest/download/Zmarga-linux-x64.deb) |
+| macOS (Apple silicon & Intel) | [Zmarga-macos-universal.dmg](https://github.com/margaconcepts/zmarga-releases/releases/latest/download/Zmarga-macos-universal.dmg) |
+| Windows 10/11 (x64) | [Zmarga-windows-x64.msi](https://github.com/margaconcepts/zmarga-releases/releases/latest/download/Zmarga-windows-x64.msi) |
+| Linux (x64, AppImage) | [Zmarga-linux-x64.AppImage](https://github.com/margaconcepts/zmarga-releases/releases/latest/download/Zmarga-linux-x64.AppImage) |
+| Linux (x64, Debian/Ubuntu) | [Zmarga-linux-x64.deb](https://github.com/margaconcepts/zmarga-releases/releases/latest/download/Zmarga-linux-x64.deb) |
 
 The filenames deliberately carry no version number. `latest/download/<name>`
 only resolves if the name never changes, so the build renames Tauri's own
