@@ -34,17 +34,16 @@ The filenames deliberately carry no version number. `latest/download/<name>`
 only resolves if the name never changes, so the build renames Tauri's own
 versioned output before uploading it. The version is on the release itself.
 
-## First launch while builds are unsigned
+## Signing
 
-Signing for both platforms is being set up. Until a release says it is
-signed, the first launch needs one extra step:
-
-- **macOS**: a double-click is refused. Right-click the app, choose *Open*,
-  then confirm. Once only.
-- **Windows**: SmartScreen warns. Choose *More info*, then *Run anyway*.
-
-That is what an unsigned installer looks like. It does not mean anything is
-wrong with the download. Every release is built in CI from a tagged commit.
+- **macOS**: the app is signed with a Developer ID certificate issued to
+  MARGA CONCEPTS PTY LTD and notarised by Apple, so it opens normally with a
+  double-click.
+- **Windows**: code signing is still being set up. Until a release says it is
+  signed, SmartScreen warns on first launch: choose *More info*, then
+  *Run anyway*. That is what an unsigned installer looks like; it does not mean
+  anything is wrong with the download. Every release is built in CI from a
+  tagged commit.
 
 ## Trial and licensing
 
