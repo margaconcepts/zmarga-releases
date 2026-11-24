@@ -20,30 +20,22 @@ hard-code on a website or in documentation.
 
 Open the `.dmg` and drag Zmarga into Applications.
 
-### Windows
-
-| Windows 10 or 11, x64 | Download |
-|---|---|
-| Installer for most people | [Zmarga-windows-x64-setup.exe](https://github.com/margaconcepts/zmarga-releases/releases/latest/download/Zmarga-windows-x64-setup.exe) |
-| MSI, for IT departments deploying it centrally | [Zmarga-windows-x64.msi](https://github.com/margaconcepts/zmarga-releases/releases/latest/download/Zmarga-windows-x64.msi) |
-
-Zmarga uses Microsoft Edge WebView2, which Windows 11 already includes. On a
-Windows 10 machine without it, the installer fetches it from Microsoft.
-
 The filenames deliberately carry no version number. `latest/download/<name>`
 only resolves if the name never changes, so the build renames Tauri's own
 versioned output before uploading it. The version is on the release itself.
+
+### Windows
+
+Coming soon. The Windows version is published here once its code signing is
+in place. Write to <support@zmarga.com> if you would like to hear when.
 
 ## Signing
 
 - **macOS**: the app is signed with a Developer ID certificate issued to
   MARGA CONCEPTS PTY LTD and notarised by Apple, so it opens normally with a
   double-click.
-- **Windows**: code signing is still being set up. Until a release says it is
-  signed, SmartScreen warns on first launch: choose *More info*, then
-  *Run anyway*. That is what an unsigned installer looks like; it does not mean
-  anything is wrong with the download. Every release is built in CI from a
-  tagged commit.
+- **Windows**: not released yet; it follows once code signing is in place.
+  Every release is built in CI from a tagged commit.
 
 ## Trial and licensing
 
